@@ -1,7 +1,7 @@
 import React from 'react';
 import { Timeline } from 'antd';
 
-const ChangeLog = ({ data }) => {
+const Changelog = ({ data }) => {
   return (
     <Timeline>
       {data.map(
@@ -16,4 +16,4 @@ const ChangeLog = ({ data }) => {
   );
 };
 
-export default ChangeLog;
+export default Changelog;
