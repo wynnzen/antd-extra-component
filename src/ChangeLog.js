@@ -2,6 +2,7 @@ import React from 'react';
 import { Timeline } from 'antd';
 
 const Changelog = ({ data }) => {
+  // data -> [['test1','test2'],'test3']
   return (
     <Timeline>
       {data.map(
